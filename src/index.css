@@ -1,0 +1,25 @@
+#root > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    height: auto;
+    justify-items: center;
+}
+
+#root h1 {
+    justify-self: center;
+    grid-column: 1/3;
+}
+
+#root select {
+    justify-self: center;
+    grid-column: 1/3;
+}
+
+.brazilMap {
+    width: 100%;
+}
+
+.brazilMap svg {
+    height: 75vh;
+}
