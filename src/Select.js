@@ -20,7 +20,7 @@ export function Select(props){
             },
             (error) =>{
                 setIsLoading(false);
-                setError(true);
+                setError(error);
             })
         },[])
 
@@ -43,10 +43,8 @@ export function Select(props){
                     })
                     
                 }
-            </select>
-            
-        )
-            
+            </select>   
+        )    
     }
 }
         
